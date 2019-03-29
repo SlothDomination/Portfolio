@@ -1,0 +1,1461 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*===========BODY=========================*/
+	body#pageArtiste{
+		color:#464655;
+		font-family:'Lato', sans-serif;
+		background-color:#ffded6;	
+	}
+
+	body#pageJeux{		
+		background-color:#ffded6;
+		font-family:'Lato', sans-serif;		
+		color:#464655;
+	}
+
+	body#pagePersonnages{
+		color:#464655;
+		font-family:'Lato', sans-serif;
+		background-color:#ffded6;	
+	}
+
+/*============HEADER====================*/
+/*+++++++Artiste++++++++++++*/
+	#pageArtiste header{
+		height:15vh;		
+		position:relative;
+		
+		text-align:center;		
+	}
+
+		/*---ImageDeFond----*/
+		#pageArtiste header img{	
+			width:100vw;
+			height:15vh;			
+			position:absolute;
+			top:0em;
+			right:0em;
+			z-index:-20;			
+		}
+
+		/*---NomPortfolio----*/
+		#pageArtiste h1#nomPortfolio{			
+			position:relative;
+			
+			font-family:Damion;
+			font-size:25pt;
+			color:white;
+			text-shadow:0.07em 0.05em #f15156;
+		}
+		
+		/*---iconMenuFlottant----*/
+		#pagePersonnages i.fa-ellipsis-v{
+			display:none;
+			position:absolute;
+			left:0.7em;			
+			bottom:0.5em;
+			
+			font-size:17pt;
+			color:white;			
+		}
+
+/*+++++++Jeux++++++++++++*/
+	#pageJeux header{
+		height:15vh;
+		position:relative;
+		
+		text-align:center;		
+	}
+
+		/*---ImageDeFond----*/
+		#pageJeux header img{	
+			width:100vw;
+			height:15vh;
+			position:absolute;
+			top:0em;
+			right:0em;
+			z-index:-20;			
+		}
+
+		/*---NomPortfolio----*/
+		#pageJeux h1#nomPortfolio{			
+			position:relative;
+			
+			font-family:Damion;
+			font-size:25pt;
+			color:white;
+			text-shadow:0.07em 0.05em #f15156;
+		}
+		
+		/*---iconMenuFlottant----*/
+		#pageArtiste i.fa-ellipsis-v{
+			display:none;
+			position:absolute;
+			left:0.7em;			
+			bottom:0.5em;
+			
+			font-size:17pt;
+			color:white;
+		}
+
+/*+++++++Personnages++++++++++++*/
+	#pagePersonnages header{		
+		height:15vh;
+		position:relative;
+		
+		text-align:center;
+	}
+
+		/*---ImageDeFond----*/
+		#pagePersonnages header img{	
+			width:100vw;
+			height:15vh;			
+			position:absolute;
+			top:0em;
+			right:0em;
+			z-index:-20;
+		}
+
+		/*---NomPortfolio----*/
+		#pagePersonnages h1#nomPortfolio{	
+			color:white;
+			position:relative;
+			font-family:Damion;
+			font-size:25pt;
+			text-shadow:0.07em 0.05em #f15156;
+		}
+
+		/*---iconMenuFlottant----*/
+		#pageJeux i.fa-ellipsis-v{
+		color:white;
+		position:absolute;
+		left:0.7em;
+		font-size:17pt;
+		bottom:0.5em;
+		display:none;
+	}
+
+/*==========NAV============================*/
+/*+++++++Artiste++++++++++++*/
+	/*------ul--------*/
+	#pageArtiste nav ul{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		position:absolute;
+		bottom:0em;
+		right:32vw;
+	}
+
+		/*------li------*/
+		#pageArtiste nav ul li{			
+			width:9em;
+			margin-top:1.5em;
+			margin-right:1.5em;
+			margin-left:1.5em;			
+			margin-bottom:0.5em;			
+			padding:0.3em;
+			
+			list-style-type:none;
+			background-color:#f15156;
+			border-radius:0.5em;			
+		}
+		
+			/*----hover----*/
+			#pageArtiste nav ul li:hover{
+				background-color:white;
+				box-shadow: 0.5em 0.3em #f15156;
+			}
+
+		/*----a------*/
+		#pageArtiste nav ul li a{
+			text-decoration:none;	
+			color:#ffded6;
+			font-family: 'Fredoka One', cursive;
+		}
+		
+			/*----hover----*/	
+			#pageArtiste nav ul li:hover a{color:#f15156;}
+
+/*+++++++Jeux++++++++++++*/
+	/*------ul--------*/
+	#pageJeux nav ul{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		position:absolute;
+		bottom:0em;
+		right:31vw;
+	}
+
+		/*------li------*/
+		#pageJeux nav ul li{	
+			width:9em;	
+			margin-top:1.5em;
+			margin-right:1.5em;
+			margin-left:1.5em;			
+			margin-bottom:0.5em;
+			padding:0.3em;	
+			
+			list-style-type:none;
+			background-color:#f15156;
+			border-radius:0.5em;	
+		}
+
+			/*----hover----*/
+			#pageJeux nav ul li:hover{
+				background-color:white;
+				box-shadow: 0.5em 0.3em #f15156;
+			}
+		
+		/*----a------*/
+		#pageJeux nav ul li a{
+			text-decoration:none;
+			color:#ffded6;	
+			font-family: 'Fredoka One', cursive;
+		}		
+
+			/*----hover----*/
+			#pageJeux nav ul li:hover a{color:#f15156;}
+
+
+/*+++++++Personnages++++++++++++*/
+	/*------ul--------*/
+	#pagePersonnages nav ul{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		position:absolute;
+		bottom:0em;
+		right:32vw;
+	}
+
+		/*------li------*/
+		#pagePersonnages nav ul li{
+			width:9em;	
+			padding:0.3em;	
+			margin-right:1.5em;
+			margin-left:1.5em;
+			margin-top:1.5em;
+			margin-bottom:0.5em;
+			
+			list-style-type:none;
+			background-color:#f15156;
+			border-radius:0.5em;
+		}
+		
+			/*----hover----*/
+			#pagePersonnages nav ul li:hover{
+				background-color:white;
+				box-shadow: 0.5em 0.3em #f15156;
+			}
+
+		/*----a------*/
+		#pagePersonnages nav ul li a{
+			text-decoration:none;				
+			font-family: 'Fredoka One', cursive;
+			color:#ffded6;
+		}	
+
+			/*----hover----*/
+			#pagePersonnages nav ul li:hover a{color:#f15156;}
+
+/*===============SELECT============================*/
+/*+++++++Artiste++++++++++++*/
+	#pageArtiste select{
+		display:none;
+		z-index:5;
+	}
+
+/*+++++++Jeux++++++++++++*/
+	#pageJeux select{
+		display:none;
+		z-index:5;
+	}
+
+/*+++++++Personnages++++++++++++*/
+	#pagePersonnages select{
+		display:none;
+		z-index:5;
+	}
+
+/*=================DIV=============================*/
+/*+++++++Artiste++++++++++++*/
+	/*----contenuPageArtiste------*/
+	#pageArtiste div#contenuPageArtiste{
+		display:flex;
+		flex-direction:column;
+		justify-content:flex-start;		
+		position:relative;
+	}
+	
+		/*----imageAuteur------*/
+		#pageArtiste div#contenuPageArtiste img#ImgAuteur{			
+			height:20vh;
+			width:10vw;
+			align-self:center;
+			position:absolute;
+			top:3vh;
+			z-index:3;
+			
+			border:0.2em solid pink;
+			border-radius:10em;			
+		}
+		
+		#pageArtiste div#contenuPageArtiste section#description{
+			height:45vh;
+			width:50vw;
+			display:flex;
+			align-self:center;
+			position:absolute;
+			top:17vh;			
+			margin-bottom:4em;
+			padding:1em;
+			padding-top:4.5em;
+				
+			background-image: linear-gradient(to bottom, #f15156, #f15156, #ffded6);			
+			border-bottom:0.2em solid #f15156;
+			border-radius:0.5em;
+			font-size:15pt;
+			color:white;
+		}
+
+		/*----sitesContact------*/
+		#pageArtiste div#contenuPageArtiste p#sitesContact{
+			align-self:center;				
+			position:absolute;
+			bottom:-2vh;
+			left:35vw;
+			
+			color:white;
+		}
+
+		/*----img------*/
+		#pageArtiste p#sitesContact img.ImgContact{
+			height:1.5em;
+			width:1.5em;
+			margin-right:0.5em;
+			margin-left:0.5em;
+			padding:0.3em;
+			
+			background-image: linear-gradient(to bottom,  #f15156, #ffded6, #f15156, #f15156);
+			border-radius:0.8em;			
+		}
+		
+	/*----menuFloat------*/	
+	#pageArtiste div#menuFloat{
+		display:none;
+	}
+
+/*+++++++Jeux++++++++++++*/	
+	/*----contenuPageJeux------*/
+	#pageJeux div#contenuPageJeux{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;		
+		position:relative;
+	}
+	
+		/*----DescriptJeu------*/
+		#pageJeux div#contenuPageJeux div.DescriptJeu{			
+			width:40vw;
+			margin:0 auto;			
+			padding:1.7em;
+			
+			background-image: linear-gradient(to bottom, #f15156, #ffded6);
+			border-bottom:0.2em solid #f15156;
+			border-radius:0.5em;
+			text-align: left;
+			color:#330000;
+		}
+		
+	/*----menuFloat------*/		
+	#pageJeux div#menuFloat{
+		display:none;
+	}
+
+/*+++++++Personnages++++++++++++*/
+/*----contenuPagePersonnages------*/
+#pagePersonnages div#contenuPagePersonnages{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;	
+	position:relative;
+}	
+
+	/*----imagePersonnage------*/
+	#pagePersonnages div#imagePersonnage{
+		align-self:flex-end;
+		/*border:0.2em solid yellow;*/
+		width:40vw;
+		height:70vh;
+		margin-top:3em;
+		margin-bottom:2em;
+		margin-right:12em;
+	}
+		/*----img----*/
+		#pagePersonnages div#imagePersonnage img{	
+			max-width:40vw;
+			max-height:70vh;
+		}
+
+
+	/*----infoPersonnage------*/
+	#pagePersonnages div#infoPersonnage{
+		position:absolute;
+		top:10vh;
+		left:15vh;
+		
+		font-size:13pt;
+		color:#f15156;		
+	}
+
+		/*-------p-------*/
+		#pagePersonnages div#infoPersonnage p{padding-top:1em;}
+
+			/*----last-child----*/
+			#pagePersonnages div#infoPersonnage p:last-child{padding-bottom:1em;}
+
+			/*-----b------*/
+			#pagePersonnages div#infoPersonnage p b{
+				font-family: 'Fredoka One', cursive;
+				font-size:15pt;
+				color:white;
+				text-shadow: -1px 0 #f15156, 0 1px #f15156, 1px 0 #f15156, 0 -1px #f15156;				
+			}
+
+	/*----menuFloat------*/	
+	#pagePersonnages div#menuFloat{display:none;}
+
+	/*----personnagePixelBouge------*/
+	#pagePersonnages div#personnagePixelBouge{
+		position:absolute;
+		top:40vh;
+		left:12vw;
+
+		text-align:center;
+	}
+
+		/*--CanvasPersoBouge--*/
+		#pagePersonnages div#personnagePixelBouge div#CanvasPersoBouge{
+			width:18em;
+			height:12em;
+			
+			box-shadow: 0.2em 0.5em #f3bed6;
+		}
+
+			/*-------p-------*/
+			#pagePersonnages div#personnagePixelBouge p{
+				font-family: 'Fredoka One', cursive;
+				font-size:20pt;
+				color:#f3bed6;
+				text-shadow: -1px 0 #f15156, 0 1px #f15156, 1px 0 #f15156, 0 -1px #f15156;
+			}
+			
+				/*----nth-of-type()----*/
+				#pagePersonnages div#personnagePixelBouge p:nth-of-type(1){display:inline-block;}
+
+				#pagePersonnages div#personnagePixelBouge p:nth-of-type(3){
+					display:inline-block;
+					margin-left:20%;
+					float:left;					
+				}
+
+				#pagePersonnages div#personnagePixelBouge p:nth-of-type(5){
+					display:inline-block;
+					margin-right:20%;
+					float:right;					
+				}
+
+				#pagePersonnages div#personnagePixelBouge p:nth-of-type(7){
+					display:inline-block;
+					margin-top:15%;
+				}
+
+	/*----flechesChangerProchainPrecedant------*/
+	#pagePersonnages div.flechesChangerProchainPrecedant{
+		display:flex;
+		justify-content:space-between;
+		width:100vw;
+		position:relative;
+	}
+
+		/*-------p-------*/
+		#pagePersonnages div.flechesChangerProchainPrecedant p{
+			display:none;			
+			font-family: 'Fredoka One', cursive;
+			color:white;
+		}
+			
+			/*----nth-of-type()----*/
+			#pagePersonnages div.flechesChangerProchainPrecedant p:nth-of-type(1){
+				position:absolute;
+				bottom:0.5em;
+				left:4em;
+			}
+
+			#pagePersonnages div.flechesChangerProchainPrecedant p:nth-of-type(2){
+				position:absolute;
+				bottom:0.5em;
+				right:4em;	
+			}
+
+		/*-------i-------*/
+		#pagePersonnages div.flechesChangerProchainPrecedant i{
+			font-size:20pt;	
+			color:#f15156;			
+		}
+		
+			/*------hover-----*/
+			#pagePersonnages div.flechesChangerProchainPrecedant i:hover{color:white;}
+		
+			/*----nth-of-type()----*/
+			#pagePersonnages div.flechesChangerProchainPrecedant i:nth-of-type(1){
+				position:absolute;
+				bottom:0.2em;
+				left:1em;
+			}
+
+			#pagePersonnages div.flechesChangerProchainPrecedant i:nth-of-type(2){
+				position:absolute;
+				bottom:0.2em;
+				right:1em;
+			}		
+
+/*=================VIDEO==============================*/
+/*+++++++Jeux++++++++++++*/	
+	#pageJeux video{
+		width:40em;
+		align-self:center;
+		margin-top:3em;
+		margin-bottom:3em;
+	}
+
+/*==================TABLE==============================*/
+/*+++++++Jeux++++++++++++*/
+	#pageJeux table{		
+		min-width:35em;
+		max-width:auto;
+		align-self:center;
+		margin-bottom:3em;
+		padding:2em;
+		
+		background-color:rgba(241, 81, 86, 0.5);
+		text-align:center;		
+	}
+		
+		/*----td----*/
+		#pageJeux table tr td{			
+			position:relative;
+			padding:2em;
+			
+			border-bottom:0.2em solid white;
+		}
+		
+			/*-----tr:last-child td-------*/
+			#pageJeux table tr:last-child td{border-bottom:none;}
+		
+			/*-------i-------*/
+			#pageJeux table tr td .TopDescrptJeu i{
+				position:absolute;
+				top:1.5em;
+				left:16.5em;	
+			}
+				/*-------fa-angle-down-------*/
+				#pageJeux table tr td .TopDescrptJeu i.fa-angle-down{color:#f15156;}
+				
+				/*-------fa-angle-up-------*/
+				#pageJeux table tr td .TopDescrptJeu i.fa-angle-up{color:white;}
+
+				/*----hover----*/
+				#pageJeux table tr td .TopDescrptJeu i:hover{color:white;}
+				
+				/*-------a img-------*/
+				#pageJeux table tr td a img{
+					max-height:3.2em;
+					position: absolute;
+					left: 0.3em;
+					top: 0.3em;
+					z-index:2;
+				}
+
+				/*----p:nth-of-type()----*/
+				#pageJeux table tr td p:nth-of-type(1){padding-top:0.2em;}
+
+				#pageJeux table tr td p:nth-of-type(2){padding-top:0.5em;}
+
+				
+/*=====================FOOTER=======================*/
+/*+++++++Artiste++++++++++++*/
+	#pageArtiste footer{
+		width:100vw;		
+		position:fixed;
+		bottom:0;
+		
+		background-image: linear-gradient(to right, #ffded6, #f15156, #ffded6);
+		text-align:center;
+		color:white;
+	}
+
+/*+++++++Jeux++++++++++++*/	
+	#pageJeux footer{
+		width:100vw;		
+		position:fixed;
+		bottom:0;
+		z-index:20;
+		
+		background-image: linear-gradient(to right, #ffded6, #f15156, #ffded6);
+		text-align:center;
+		color:white;
+	}
+
+/*+++++++Personnages++++++++++++*/
+	#pagePersonnages footer{
+		width:100vw;		
+		position:fixed;
+		bottom:0;
+		
+		background-image: linear-gradient(to right, #ffded6, #f15156, #ffded6);
+		text-align:center;
+		color:white;
+	}
+
+/*=====================MEDIA_QUERIES===========================*/
+/*----------------------MOBILE----------------------------------------------------------*/
+@media only screen and (max-width: 479px){ 
+
+	/*=============HEADER===================*/	
+		/*+++++++Jeux++++++++++++*/
+			#pageJeux h1#nomPortfolio {			
+				display:flex;
+				flex-direction:row;
+				justify-content:center;
+				position:relative;
+				
+				font-family:Damion;
+				font-size:25pt;
+				color:white;
+				text-shadow:0.07em 0.05em #f15156;		
+			}
+			
+			/*-----i-------*/
+			#pageJeux i.fa-ellipsis-v{display:block;}
+		
+		/*+++++++Artiste++++++++++++*/
+			#pageArtiste h1#nomPortfolio {		
+				display:flex;
+				flex-direction:row;
+				justify-content:center;
+				position:relative;
+				
+				font-family:Damion;
+				font-size:25pt;
+				color:white;
+				text-shadow:0.07em 0.05em #f15156;
+			}
+			
+			/*-----i-------*/
+			#pageArtiste i.fa-ellipsis-v{display:block;}
+			
+		/*+++++++Personnages++++++++++++*/
+			#pagePersonnages h1#nomPortfolio {			
+				display:flex;
+				flex-direction:row;
+				justify-content:center;
+				position:relative;
+				
+				font-family:Damion;
+				font-size:25pt;
+				color:white;
+				text-shadow:0.07em 0.05em #f15156;
+			}
+
+			/*-----i-------*/
+			#pagePersonnages i.fa-ellipsis-v{display:block;}	
+		
+
+	/*=======================FOOTER==========================*/
+		/*+++++++Artiste++++++++++++*/
+			#pageArtiste footer{background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #ffded6);}
+			
+		/*+++++++Jeux++++++++++++*/
+			#pageJeux footer{background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #f15156, #ffded6);}
+		
+		/*+++++++Personnages++++++++++++*/
+			#pagePersonnages footer{background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #f15156, #ffded6);}
+		
+	/*=========================NAV==========================*/
+		/*+++++++Artiste++++++++++++*/
+			#pageArtiste nav{display:none;}
+		
+		/*+++++++Jeux++++++++++++*/
+			#pageJeux nav{display:none;}	
+		
+		/*+++++++Personnages++++++++++++*/
+			#pagePersonnages nav{display:none;}	
+		
+	/*=========================DIV==========================*/	
+	/*--------------#menuFloat----------------*/
+		/*+++++++Artiste++++++++++++*/
+		#pageArtiste div#menuFloat{			
+			border:0.2em solid pink;
+			/*background-color:rgba(255,255,255,0.8);*/
+			border-radius: 0.3em;	
+		}
+		
+			/*-----a-------*/
+			#pageArtiste div#menuFloat a{
+				text-decoration:none;
+				color:white;
+			}
+			
+			/*-----li-------*/
+			#pageArtiste div#menuFloat ul li{				
+				width:50%;
+				margin:0 auto;
+				margin-top:0.5em;
+				margin-bottom:0.5em;
+				margin-bottom:2em;	
+				padding:0.3em;	
+				
+				list-style-type:none;
+				text-decoration:none;
+
+				background-color:#f15156;
+				border-radius:0.5em;
+				text-align:center;				
+			}
+			
+		/*+++++++Jeux++++++++++++*/
+		#pageJeux div#menuFloat{			
+			border:0.2em solid pink;
+			/*background-color:rgba(255,255,255,0.8);*/
+			border-radius: 0.3em;	
+		}
+		
+			/*-----a-------*/
+			#pageJeux div#menuFloat a{
+				text-decoration:none;
+				color:white;
+			}
+			
+			/*-----li-------*/
+			#pageJeux div#menuFloat ul li{				
+				width:50%;
+				margin:0 auto;
+				margin-top:0.5em;
+				margin-bottom:0.5em;
+				margin-bottom:2em;	
+				padding:0.3em;						
+				
+				list-style-type:none;
+				text-decoration:none;
+				background-color:#f15156;
+				border-radius:0.5em;
+				text-align:center;					
+			}
+	
+	/*+++++++Personnages++++++++++++*/
+		#pageArtiste div#menuFloat{			
+			/*background-color:rgba(255,255,255,0.8);*/
+			border-radius: 0.3em;	
+		}
+		
+			/*-----a-------*/
+			#pagePersonnages div#menuFloat a{
+				text-decoration:none;
+				color:white;
+			}
+			
+			/*-----li-------*/
+			#pagePersonnages div#menuFloat ul li{			
+				width:50%;
+				margin:0 auto;
+				margin-top:0.5em;
+				margin-bottom:2em;	
+				padding:0.3em;	
+				
+				text-decoration:none;			
+				list-style-type:none;
+				background-color:#f15156;
+				border-radius:0.5em;			
+				text-align:center;			
+			}	
+	/*--------------#contenuPage----------------*/
+		/*+++++++Artiste++++++++++++*/
+		/*----imageAuteur------*/
+		#pageArtiste div#contenuPageArtiste img#ImgAuteur{
+			height:18vh;
+			min-width:18vh;			
+			top:3vh;
+			margin-top:0em;
+		}	
+	
+		/*+++++++Jeux++++++++++++*/
+		/*----descriptJeu------*/
+		#pageJeux div#contenuPageJeux div.DescriptJeu{
+			width:70vw;
+			padding-top:1.5em;
+			
+			font-size:10pt;
+		}
+	
+	/*--------------imagePersonnage----------------*/
+		/*+++++++Personnages++++++++++++*/
+		#pagePersonnages div#imagePersonnage{		
+			max-height:80vh;
+			max-width:60vw;
+			align-self:flex-end;
+			margin-top:-3em;
+			margin-right:40.5vw;
+			margin-bottom:2em;		
+			margin-bottom:7em;
+		}
+			/*----img------*/
+			#pagePersonnages div#imagePersonnage img{
+				max-height:50vh;
+				max-width:60vw;				
+				margin-top:12em;
+				margin-bottom:2em;
+			}
+
+	/*--------------infoPersonnage----------------*/
+		/*+++++++Personnages++++++++++++*/
+		#pagePersonnages div#infoPersonnage{
+			width:60vw;
+			position:absolute;
+			top:2vh;
+			left:10vh;
+			
+			font-size:10pt;
+		}
+		
+			/*----b------*/
+			#pagePersonnages div#infoPersonnage p b{font-size:12pt;}
+
+	/*--------------personnagePixelBouge----------------*/
+		/*+++++++Personnages++++++++++++*/
+		#pagePersonnages div#personnagePixelBouge{display:none;}
+	
+	/*--------------flechesChangerProchainPrecedant----------------*/
+		/*+++++++Personnages++++++++++++*/
+		#pagePersonnages div.flechesChangerProchainPrecedant{width:100vw;}
+	
+	/*===========================SECTION=====================================*/
+		/*--------------#description----------------*/
+		/*+++++++Artiste++++++++++++*/
+		#pageArtiste div#contenuPageArtiste section#description{
+			height:auto;
+			width:75vw;
+			top:14vh;				
+			padding-bottom:3em;
+			
+			font-size:14pt;
+		}
+
+			/*----p------*/	
+			#pageArtiste section#description p#sitesContact img.ImgContact{
+				height:1em;
+				width:1em;
+				margin-right:0.2em;
+				padding:0.5em;			
+			}
+	
+	/*===========================VIDEO=====================================*/
+		/*+++++++Jeux++++++++++++*/
+		#pageJeux video{
+			width:80vw;
+			margin-top:2em;
+			margin-bottom:2em;
+		}
+	
+	/*===========================TABLE=====================================*/
+		/*+++++++Jeux++++++++++++*/
+		#pageJeux table{
+			width:90vw;
+			padding:0.3em;
+		}	
+		
+			/*----i------*/	
+			#pageJeux table tr td .TopDescrptJeu i{
+				position:absolute;
+				top:1.5em;
+				left:15.5em;	
+			}
+
+}/*----------------------FIN---MOBILE--------------------------------------------------------*/
+
+/*----------------------TABLETTE----------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width:1023px){
+	/*===========================HEADER=====================================*/
+		/*+++++++Jeux++++++++++++*/
+			/*----h1------*/	
+			#pageJeux h1#nomPortfolio {	
+				display:flex;
+				position:relative;
+				flex-direction:row;
+				justify-content:center;			
+				padding-top:1vh;
+				
+				font-family:Damion;
+				font-size:45pt;
+				color:white;
+				text-shadow:0.07em 0.05em #f15156;				
+			}
+		
+			/*----i------*/	
+			#pageJeux i.fa-ellipsis-v{
+				display:block;
+				font-size:37pt;				
+			}
+	
+		/*+++++++Artiste++++++++++++*/
+			/*----h1------*/	
+			#pageArtiste h1#nomPortfolio {					
+				display:flex;				
+				flex-direction:row;
+				justify-content:center;
+				position:relative;
+				padding-top:1vh;
+				
+				font-family:Damion;
+				font-size:45pt;
+				color:white;
+				text-shadow:0.07em 0.05em #f15156;
+			}
+			
+			/*----i------*/	
+			#pageArtiste i.fa-ellipsis-v{
+				display:block;
+				font-size:37pt;				
+			}
+			
+		/*+++++++Personnages++++++++++++*/
+				/*----h1------*/	
+				#pagePersonnages h1#nomPortfolio {	
+					display:flex;
+					flex-direction:row;
+					justify-content:center;					
+					position:relative;
+					padding-top:1vh;
+					
+					font-family:Damion;
+					font-size:45pt;
+					color:white;
+					text-shadow:0.07em 0.05em #f15156;
+				}
+		
+				/*----i------*/	
+				#pagePersonnages i.fa-ellipsis-v{
+					display:block;
+					font-size:37pt;					
+				}
+		
+	/*===========================FOOTER=====================================*/		
+		/*+++++++Jeux++++++++++++*/
+			#pageJeux footer{
+				background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #f15156, #ffded6);
+				font-size:15pt;
+			}
+			
+		/*+++++++Artiste++++++++++++*/		
+			#pageArtiste footer{
+				background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #ffded6);
+				font-size:18pt;
+			}
+		
+		/*+++++++Personnages++++++++++++*/
+			#pagePersonnages footer{
+				background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #f15156, #ffded6);
+				font-size:18pt;
+			}
+	
+	/*===========================DIV=====================================*/			
+		/*--------------#menuFloat----------------*/	
+			/*+++++++Artiste++++++++++++*/	
+				#pageArtiste div#menuFloat{border-radius: 0.3em;}
+				
+					/*----a------*/	
+					#pageArtiste div#menuFloat a{
+						text-decoration:none;		
+						font-size: 22pt;
+						color:white;
+					}
+					
+					/*----li------*/	
+					#pageArtiste div#menuFloat ul li{
+						width:50%;
+						margin:0 auto;
+						margin-top:1em;
+						margin-bottom:0.5em;	
+						padding:0.5em;	
+						
+						list-style-type:none;
+						text-decoration:none;
+						background-color:#f15156;
+						border-radius:0.5em;
+						text-align:center;
+					}
+					
+			/*+++++++Jeux++++++++++++*/	
+				#pageJeux div#menuFloat{border-radius: 0.3em;}
+				
+					/*----a------*/	
+					#pageJeux div#menuFloat a{
+						text-decoration:none;						
+						font-size: 22pt;
+						color:white;
+					}
+					
+					/*----li------*/	
+					#pageJeux div#menuFloat ul li{
+						width:50%;
+						margin:0 auto;
+						margin-top:1em;
+						margin-bottom:0.5em;							
+						padding:0.5em;	
+												
+						list-style-type:none;
+						text-decoration:none;	
+						background-color:#f15156;
+						border-radius:0.5em;
+						text-align:center;							
+					}
+		
+			
+					
+			/*+++++++Personnages++++++++++++*/
+				#pagePersonnages div#menuFloat{border-radius: 0.3em;}
+				
+					/*----a------*/	
+					#pagePersonnages div#menuFloat a{
+						text-decoration:none;		
+						font-size: 22pt;
+						color:white;
+					}
+					
+					/*----li------*/	
+					#pagePersonnages div#menuFloat ul li{
+						width:50%;
+						margin:0 auto;
+						margin-top:1em;
+						margin-bottom:0.5em;		
+						padding:0.5em;	
+						
+						list-style-type:none;
+						text-decoration:none;
+						background-color:#f15156;
+						border-radius:0.5em;
+						text-align:center;
+					}	
+					
+		/*--------------#contenuPageArtiste----------------*/		
+			/*+++++++Jeux++++++++++++*/	
+				/*----DescriptJeu------*/
+				#pageJeux div#contenuPageJeux div#DescriptJeu{		
+					width:52vw;
+					color:#330000;
+				}
+			/*+++++++Artiste++++++++++++*/	
+				/*----imageAuteur------*/
+				#pageArtiste div#contenuPageArtiste img#ImgAuteur{
+					height:24vw;
+					width:24vw;
+					top:3vh;
+					margin-top:0em;		
+				}
+	
+	
+			/*+++++++Personnages++++++++++++*/	
+				/*----#imagePersonnage------*/
+				#pagePersonnages div#imagePersonnage{		
+					max-height:55vw;
+					max-width:50vw;
+					align-self:flex-end;
+					margin-top:0em;
+					margin-right:17.5em;
+					margin-bottom:2em;		
+				}
+				
+					#pagePersonnages div#imagePersonnage img{
+						max-height:75vh;
+						max-width:50vw;		
+						margin-top:14em;
+						margin-right:25%;
+					}
+
+				/*----#infoPersonnage------*/
+				#pagePersonnages div#infoPersonnage{
+					position:absolute;
+					top:2vh;
+					left:10vh;
+					font-size:17pt;
+				}
+
+					/*----b------*/		
+					#pagePersonnages div#infoPersonnage p b{font-size:19pt;}
+
+				/*----#personnagePixelBouge------*/
+				#pagePersonnages div#personnagePixelBouge{display:none;}
+	
+	/*===========================SECTION=====================================*/
+		/*+++++++Artiste++++++++++++*/
+			/*----#description------*/	
+			#pageArtiste div#contenuPageArtiste section#description{
+				height:auto;
+				width:70vw;
+				top:12vh;
+				padding-bottom:4em;
+				font-size:20pt;
+			}
+		
+				/*----p------*/					
+				#pageArtiste p#sitesContact{position:absolute;}
+				
+				/*----img------*/
+					#pageArtiste p#sitesContact img.ImgContact{
+						height:1.5em;
+						width:1.5em;
+						padding:0.5em;			
+					}	
+	
+	/*===========================NAV=====================================*/
+		/*+++++++Artiste++++++++++++*/
+			/*----li------*/
+			#pageArtiste nav ul li{display:none;}
+			
+		/*+++++++Jeux++++++++++++*/
+			/*----li------*/
+			#pageJeux nav ul li{display:none;}			
+			
+		/*+++++++Personnages++++++++++++*/
+			/*----li------*/
+			#pagePersonnages nav ul li{display:none;}
+	
+	/*===========================TABLE=====================================*/
+		/*+++++++Jeux++++++++++++*/
+			#pageJeux table{
+				width:50vw;
+				margin:auto;
+			}
+				/*----p------*/
+				#pageJeux table tr td p{font-size:17pt;}
+				
+				/*----i------*/
+				#pageJeux table tr td .TopDescrptJeu i{
+					padding-left:1em;
+					font-size:16pt;
+			}
+
+}/*----------------------FIN---TABLETTE--------------------------------------------------------*/
+
+/*----------------------TABLETTE-EXTRALARGE--------------------------------------------------------*/
+@media only screen and (min-width: 1023px) and (max-width:1024px){
+	/*===========================HEADER=====================================*/
+		/*+++++++Artiste++++++++++++*/
+			/*----h1------*/
+			#pageArtiste h1#nomPortfolio {					
+				display:flex;
+				flex-direction:row;
+				justify-content:center;
+				position:relative;
+				padding-top:1vh;
+				
+				font-family:Damion;
+				font-size:63pt;
+				color:white;
+				text-shadow:0.07em 0.05em #f15156;
+			}
+	
+				/*----i------*/
+				#pageArtiste i.fa-ellipsis-v{
+					display:block;
+					position:absolute;
+					left:0.7em;		
+					bottom:0.5em;
+					
+					font-size:37pt;
+					color:white;
+				}
+				
+		/*+++++++Jeux++++++++++++*/
+			#pageJeux header{
+				width:100vw;
+				position:relative;
+				
+				border:none;
+				text-align:center;
+			}
+		
+				/*----h1------*/
+				#pageJeux h1#nomPortfolio {	
+					display:flex;
+					flex-direction:row;
+					justify-content:center;
+					position:relative;
+					padding-top:1vh;
+					
+					font-family:Damion;
+					font-size:63pt;
+					color:white;
+					text-shadow:0.07em 0.05em #f15156;
+				}
+				
+				/*----i------*/
+				#pageJeux i.fa-ellipsis-v{
+					display:block;
+					position:absolute;
+					left:0.7em;					
+					bottom:0.5em;
+					
+					font-size:37pt;
+					color:white;
+				}
+
+				
+		/*+++++++Personnages++++++++++++*/		
+			/*----h1------*/
+			#pagePersonnages h1#nomPortfolio {	
+				display:flex;
+				flex-direction:row;
+				justify-content:center;				
+				position:relative;
+				padding-top:1vh;
+				
+				font-family:Damion;
+				font-size:63pt;
+				color:white;
+				text-shadow:0.07em 0.05em #f15156;
+			}
+			
+			/*----i------*/
+			#pagePersonnages i.fa-ellipsis-v{
+				display:block;
+				position:absolute;
+				left:0.7em;				
+				bottom:0.5em;
+				
+				font-size:37pt;
+				color:white;
+			}
+	
+	/*===========================FOOTER=====================================*/
+		/*+++++++Artiste++++++++++++*/
+			#pageArtiste footer{
+				background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #ffded6);
+				font-size:20pt;
+			}
+	
+		/*+++++++Jeux++++++++++++*/
+			#pageJeux footer{
+				background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #f15156, #ffded6);
+				font-size:20pt;
+			}
+	
+		/*+++++++Personnages++++++++++++*/
+			#pagePersonnages footer{
+				background-image: linear-gradient(to right, #ffded6, #f15156, #f15156, #f15156, #ffded6);
+				font-size:20pt;
+			}
+	
+	/*===========================DIV=====================================*/		
+		/*+++++++Artiste++++++++++++*/
+			/*----#menuFloat------*/
+			#pageArtiste div#menuFloat{border-radius: 0.3em;}
+			
+				/*----a------*/
+				#pageArtiste div#menuFloat a{
+					text-decoration:none;
+					font-size: 25pt;
+					color:white;					
+				}
+				
+				/*----li------*/
+				#pageArtiste div#menuFloat ul li{					
+					width:50%;
+					margin:0 auto;
+					margin-top:1em;
+					margin-bottom:0.5em;	
+					margin-bottom:2em;	
+					padding:0.7em;	
+					
+					
+					list-style-type:none;
+					text-decoration:none;
+					background-color:#f15156;
+					border-radius:0.5em;
+					text-align:center;
+				}
+				
+			/*----#ImgAuteur------*/
+			#pageArtiste div#contenuPageArtiste img#ImgAuteur{
+				width:24vw;
+				height:24vw;
+				margin-top:0em;
+				top:3vh;
+			}
+							
+			/*----#sitesContact------*/
+			#pageArtiste div#contenuPageJeux p#sitesContact{
+				position:absolute;
+				bottom:-92vh;
+			}
+			
+				/*----img------*/
+				#pageArtiste div#contenuPageJeux p#sitesContact img.ImgContact{
+					height:1.5em;
+					width:1.5em;
+					padding:0.5em;			
+				}
+				
+		/*+++++++Jeux++++++++++++*/	
+			/*----#menuFloat------*/
+			#pageJeux div#menuFloat{border-radius: 0.3em;}
+			
+				/*----a------*/
+				#pageJeux div#menuFloat a{
+					text-decoration:none;
+					color:white;
+					font-size: 25pt;
+				}
+				
+				/*----li------*/
+				#pageJeux div#menuFloat ul li{
+					margin:0 auto;
+					width:50%;
+					text-align:center;
+					text-decoration:none;
+					
+					margin-bottom:2em;	
+					list-style-type:none;
+					border-radius:0.5em;
+
+					background-color:#f15156;
+					padding:0.7em;	
+					margin-top:1em;
+					margin-bottom:0.5em;		
+				}
+				
+			/*----#DescriptJeu------*/
+			#pageJeux div#contenuPageJeux div#DescriptJeu{
+				width:45vw;
+				margin-left:3vw;
+				color:#330000;
+			}
+		
+		
+		
+			
+		
+		/*+++++++Personnages++++++++++++*/
+				/*----#menuFloat------*/
+				#pagePersonnages div#menuFloat{border-radius: 0.3em;}
+				
+					/*----a------*/
+					#pagePersonnages div#menuFloat a{
+						text-decoration:none;		
+						font-size: 25pt;
+						color:white;
+					}
+				
+					/*----li------*/
+					#pagePersonnages div#menuFloat ul li{
+						width:50%;
+						margin:0 auto;
+						margin-top:1em;
+						margin-bottom:0.5em;
+						margin-bottom:2em;							
+						padding:0.7em;	
+						
+						list-style-type:none;
+						text-decoration:none;
+						background-color:#f15156;
+						border-radius:0.5em;
+						text-align:center;	
+					}	
+					
+				/*----#imagePersonnage------*/
+				#pagePersonnages div#imagePersonnage{
+					max-height:50vh;
+					max-width:65vw;
+					align-self:flex-end;		
+					margin-top:-3em;
+					margin-right:40vw;
+					margin-bottom:2em;		
+					margin-bottom:7em;
+				}
+					/*----img------*/
+					#pagePersonnages div#imagePersonnage img{
+						max-height:50vh;
+						max-width:65vw;		
+						margin-top:23em;
+						margin-bottom:10em;
+					}
+
+				/*----#infoPersonnage------*/
+				#pagePersonnages div#infoPersonnage{
+					position:absolute;
+					top:2vh;
+					left:10vh;
+					font-size:23pt;
+				}
+
+					/*----b------*/
+					#pagePersonnages div#infoPersonnage p b{font-size:25pt;}
+
+				/*----#personnagePixelBouge------*/
+				#pagePersonnages div#personnagePixelBouge{display:none;}
+				
+				/*----flechesChangerProchainPrecedant------*/
+					/*----i------*/
+					#pagePersonnages div.flechesChangerProchainPrecedant i{font-size:30pt;}
+					
+					/*----p------*/
+					#pagePersonnages div.flechesChangerProchainPrecedant p{font-size:20pt;}
+	
+	/*===========================NAV=====================================*/
+		/*+++++++Artiste++++++++++++*/
+			/*----li------*/
+			#pageArtiste nav ul li{display:none;}
+		
+		/*+++++++Jeux++++++++++++*/
+			/*----li------*/
+			#pageJeux nav ul li{display:none;}
+
+		/*+++++++Personnages++++++++++++*/
+			/*----li------*/
+			#pagePersonnages nav ul li{display:none;}
+	
+	/*===========================TABLE=====================================*/
+			/*+++++++Jeux++++++++++++*/	
+				#pageJeux table{
+					width:50vw;
+					margin-left:5vw;
+				}
+					/*----p------*/
+					#pageJeux table tr td p{font-size:17pt;}
+					
+					/*----i------*/
+					#pageJeux table tr td .TopDescrptJeu i{
+						padding-left:1em;
+						font-size:16pt;
+					}
+	
+	/*===========================SECTION=====================================*/
+			/*+++++++Artiste++++++++++++*/
+				/*----#description------*/
+				#pageArtiste div#contenuPageArtiste section#description{
+					height:auto;
+					width:70vw;
+					top:14vh;				
+					padding-bottom:4em;
+					font-size:25pt;
+				}
+}/*-------------------FIN---TABLETTE-EXTRALARGE--------------------------------------------------------*/
+
+
+
+

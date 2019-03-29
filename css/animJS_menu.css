@@ -1,0 +1,30 @@
+/*==================HEADER=====================*/
+/*l'icone est horizontal*/
+header i.animCliqueMenuHorizontal{
+	animation: animMenuTournerVerticale 0.5s;
+	animation-fill-mode: forwards;
+}
+
+/*l'icone est vertical*/
+header i.animCliqueMenuVertcial{
+	animation: animMenuTournerHorzontale 0.5s;
+	animation-fill-mode: forwards;
+}
+
+
+/*==================KEYFRAMES_ANIMATIONS=====================*/
+/*animation du i qui va de vertical à horizontal*/
+@keyframes animMenuTournerVerticale{
+	from{transform: rotateZ(0deg);}
+	
+	to{transform: rotateZ(90deg);}
+}
+
+/*animation du i qui va de horizontal à vertical */
+@keyframes animMenuTournerHorzontale{
+	from{transform: rotateZ(90deg);}
+	
+	to{transform: rotateZ(0deg);}
+}
+
+
